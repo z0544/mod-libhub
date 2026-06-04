@@ -8,6 +8,22 @@ The interface is fully bilingual (Hebrew / English) with a language toggle in th
 navbar. Hebrew is the default and renders right-to-left (RTL); English renders
 left-to-right (LTR).
 
+## Features
+
+- **Catalog & search** — browse software/libraries by category, full-text search,
+  filter by stable versions, grid/list views, popular & recently-added sorting.
+- **Hierarchical categories** — top-level categories with sub-categories (e.g. a
+  single **NPM** parent grouping 15 sub-categories and ~140 libraries).
+- **Versioning** — multiple versions per item, "recommended/stable" flag, release
+  notes (Markdown), JSON metadata, file size and per-version download counters.
+- **Secure downloads** — files streamed from the server with download tracking.
+- **Admin dashboard** — manage items, versions and categories; storage/usage stats.
+- **Recycle bin** — soft-delete for items and categories with restore & permanent-delete.
+- **Roles** — Admin (full management) and Viewer (browse & download), JWT-based, AD-ready.
+- **Bilingual UI** — Hebrew (RTL) / English (LTR) with light & dark themes.
+- **Offline-first** — no external CDN/runtime dependency; ships with an offline,
+  step-by-step internal-server deployment guide and scripts.
+
 ## Tech Stack
 
 | Layer        | Technology                                                             |
